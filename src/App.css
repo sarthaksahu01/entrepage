@@ -1,38 +1,120 @@
-.App {
-  text-align: center;
+.company-logo {
+  width: 250px;
+  height: 70px;
+}
+.dashboard-heading {
+  padding: 20px;
+  margin-left: 200px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container-signups {
+  border: 1px solid rgb(87, 83, 83);
+  height: 270px;
+  margin: 20px 0px;
+  border-radius: 10px;
+  width: 400px;
+  padding: 10px;
+  /* box-shadow: 10px 10px grey; */
+}
+.container-signups h4 {
+  font-size: 15px;
+}
+.container-signups h1 {
+  font-size: 25px;
+}
+.container-signups-figure {
+  font-size: 50px;
+  color: #388e3c;
+}
+.container-signups h3 {
+  font-size: 30px;
+  padding: 5px 0;
+}
+.container-widget-added {
+  border: 1px solid rgb(87, 83, 83);
+  margin: 20px;
+  height: 230px;
+  margin: 20px 0px;
+  border-radius: 10px;
+  width: 400px;
+  padding: 10px;
+}
+.container-center {
+  border: 1px solid rgb(87, 83, 83);
+  margin: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  height: 520px;
+  width: 300px;
+}
+.container-center-MMR {
+  font-size: 30px;
+}
+.MMR-capital {
+  padding: 10px;
+  padding-top: 10px;
+  font-size: 50px;
+  /* font-weight: 400; */
+  color: #388e3c;
+}
+.container-center-current {
+  font-size: 15;
+  padding-bottom: 20px;
+}
+.container-center-recent {
+  padding-top: 10px;
+  font-size: 20px;
+}
+.conatiner-right {
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  /* background-color: #3e3a5e; */
+  /* color: #ffff; */
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* border: 1px solid rgb(87, 83, 83); */
 }
 
-.App-link {
-  color: #61dafb;
+.container-CS {
+  border: 1px solid rgb(87, 83, 83);
+  padding: 10px;
+  height: 400px;
+  margin: 20px 0px;
+  border-radius: 10px;
+  width: 350px;
+}
+.container-CS div {
+  font-size: 30px;
+}
+.container-customer-feedback {
+  border: 1px solid rgb(87, 83, 83);
+  border-radius: 10px;
+  padding-left: 10px;
+  height: 100px;
+}
+.team-heading {
+  /* font-size: 100px; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.team-images {
+  display: inline;
+  /* float: left; */
+  /* justify-items: center; */
+  /* justify-content: center; */
+}
+.img-thumbnail {
+  margin: 0px 10px;
+  height: 150px;
+  width: 150px;
+}
+
+.card {
+  width: 18rem;
+  margin: 10px 20px;
+}
+
+.feedback-data {
+  display: flex;
 }
